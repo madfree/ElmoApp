@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">ElmoApp</string>
+
+    <string name="cant_hear">Can\'t hear you</string>
+    <string name="elmo">Elmo! (Enough let\'s move on)</string>
+    <string name="reboot">Try to REBOOT</string>
+    <string name="breaking_up">Your\'re BREAKING UP!</string>
+    <string name="mute">Please MUTE</string>
+    <string name="yes">YES!</string>
+    <string name="no">NO!</string>
+    <string name="got_to_go">Got to GO!</string>
+    <string name="noise">Someone has bkg NOISE!</string>
+    <string name="connection">Bad connection</string>
+    <string name="brb">Be right back!</string>
+    <string name="repeat">Please repeat</string>
+    <string name="speed_up">Speed up!</string>
+    <string name="slow_down">Slow down!</string>
+    <string name="frozen">Your\'re FROZEN</string>
+    <string name="muted">Your\'re on MUTE!</string>
+
+    <string-array name="card_titles">
+        <item>Can\'t hear you</item>
+        <item>Elmo! (Enough let\'s move on)</item>
+        <item>Try to REBOOT</item>
+        <item>Your\'re BREAKING UP!</item>
+        <item>Please MUTE</item>
+        <item>YES!</item>
+        <item>NO!</item>
+        <item>Got to GO!</item>
+        <item>Someone has bkg NOISE!</item>
+        <item>Bad connection</item>
+        <item>Be right back!</item>
+        <item>Please repeat</item>
+        <item>Speed up!</item>
+        <item>Slow down!</item>
+        <item>Your\'re FROZEN</item>
+        <item>Your\'re on MUTE!</item>
+    </string-array>
+
+    <string-array name="card_images">
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+        <item>@drawable/elmo</item>
+    </string-array>
+
+</resources>
