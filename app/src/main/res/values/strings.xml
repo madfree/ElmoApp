@@ -37,23 +37,23 @@
         <item>Your\'re on MUTE!</item>
     </string-array>
 
-    <string-array name="card_images">
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-        <item>@drawable/elmo</item>
-    </string-array>
+    <integer-array name="card_images">
+        <item>@drawable/ear_hearing_off</item>
+        <item>@drawable/elmo2</item>
+        <item>@drawable/reboot</item>
+        <item>@drawable/breaking_up</item>
+        <item>@drawable/plz_mute</item>
+        <item>@drawable/yes</item>
+        <item>@drawable/no</item>
+        <item>@drawable/got_to_go</item>
+        <item>@drawable/noise</item>
+        <item>@drawable/connection_bad</item>
+        <item>@drawable/be_right_back</item>
+        <item>@drawable/repeat</item>
+        <item>@drawable/speed_up</item>
+        <item>@drawable/slow_down</item>
+        <item>@drawable/frozen</item>
+        <item>@drawable/on_mute</item>
+    </integer-array>
 
 </resources>

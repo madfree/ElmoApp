@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.List;
@@ -33,6 +34,7 @@ public class ChatCardAdapter extends RecyclerView.Adapter<ChatCardAdapter.ChatCa
     @Override
     public void onBindViewHolder(@NonNull ChatCardViewHolder chatCardViewHolder, int position) {
         chatCardViewHolder.chatCardTitle.setText(mChatCardList.get(position).getTitle());
+        chatCardViewHolder.chatCardImage.setImageResource(mChatCardList.get(position).getImage());
         switch (position%3) {
             case 2:
                 chatCardViewHolder.itemView
@@ -67,10 +69,12 @@ public class ChatCardAdapter extends RecyclerView.Adapter<ChatCardAdapter.ChatCa
 
     class ChatCardViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         final TextView chatCardTitle;
+        final ImageView chatCardImage;
 
         ChatCardViewHolder(@NonNull View itemView) {
             super(itemView);
             chatCardTitle = itemView.findViewById(R.id.title_string);
+            chatCardImage = itemView.findViewById(R.id.image_view);
             itemView.setOnClickListener(this);
         }
 

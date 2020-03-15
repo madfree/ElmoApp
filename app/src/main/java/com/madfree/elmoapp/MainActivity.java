@@ -5,6 +5,8 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.res.TypedArray;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -23,15 +25,15 @@ public class MainActivity extends AppCompatActivity implements ChatCardAdapter.I
         setContentView(R.layout.activity_main);
 
         ArrayList<ChatCard> mChatCards = new ArrayList<>();
-        String[] mChatCardImages = getResources().getStringArray(R.array.card_images);
+        TypedArray mChatCardImages = getResources().obtainTypedArray(R.array.card_images);
         String[] mChatCardTitles = getResources().getStringArray(R.array.card_titles);
         for (int i = 0; i < mChatCardTitles.length; i++) {
             ChatCard chatCard = new ChatCard();
             chatCard.setTitle(mChatCardTitles[i]);
-
-            chatCard.setImage(mChatCardImages[i]);
+            chatCard.setImage(mChatCardImages.getResourceId(i, -1));
             mChatCards.add(chatCard);
         }
+        mChatCardImages.recycle();
 
         mRecyclerView = findViewById(R.id.recycler_view);
         mChatCardAdapter = new ChatCardAdapter(this, this);

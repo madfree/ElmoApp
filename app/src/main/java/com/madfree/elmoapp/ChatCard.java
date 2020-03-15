@@ -1,15 +1,17 @@
 package com.madfree.elmoapp;
 
+import android.graphics.drawable.Drawable;
+
 class ChatCard {
 
     private String title;
-    private String image;
+    private int image;
 
     public String getTitle() {
         return title;
     }
 
-    public String getImage() {
+    public int getImage() {
         return image;
     }
 
@@ -17,7 +19,7 @@ class ChatCard {
         this.title = title;
     }
 
-    public void setImage(String image) {
+    public void setImage(int image) {
         this.image = image;
     }
 }
